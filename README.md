@@ -58,9 +58,9 @@ Tüm görseller ve ikonlar `/assets/img/` ve `/assets/icons/` klasörlerinde yer
 
 ## 📞 İletişim
 
-- [Instagram](https://instagram.com)  
-- [WhatsApp](https://wa.me/905358717659)  
-- E-posta: megaluxurytransfer@gmail.com
+- [Instagram](https://instagram.com/abbysnexuss)  
+- [WhatsApp](https://wa.me/905522846637)  
+- E-posta: abbysnexuss@gmail.com
 
 ## 📝 Lisans
 
@@ -69,4 +69,4 @@ Ticari kullanım veya yeniden dağıtım için lütfen iletişime geçin.
 
 ---
 
-> **Hazırlayan:** Antalya VIP Transfer | [megaluxurytransfer@gmail.com](mailto:megaluxurytransfer@gmail.com) 
+> **Hazırlayan:** ABN
