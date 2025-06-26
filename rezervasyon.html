@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Antalya VIP transfer rezervasyon formu. Hızlı ve kolay rezervasyon yapın.">
+  <meta name="keywords" content="Antalya transfer rezervasyon, VIP transfer, form">
+  <meta name="author" content="Antalya VIP Transfer">
+  <title>Rezervasyon | Antalya VIP Transfer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="navbar-logo">MEGA LUXURY</a>
+      <div class="navbar-links">
+        <a href="index.html">Anasayfa</a>
+        <a href="arac-filomuz.html">Araç Filomuz</a>
+        <a href="iletisim.html">İletişim</a>
+        <a href="rezervasyon.html" class="navbar-reserve">Rezervasyon Yap</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="reservation">
+      <h1 class="reservation-title">Rezervasyon Yap</h1>
+      <form id="reservationForm" class="reservation-form">
+        <div class="form-group">
+          <label for="name">Ad Soyad</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefon Numarası</label>
+          <input type="tel" id="phone" name="phone" required pattern="[0-9\s\-\+]{10,15}" />
+        </div>
+        <div class="form-group">
+          <label for="from">Kalkış Yeri</label>
+          <input type="text" id="from" name="from" required />
+        </div>
+        <div class="form-group">
+          <label for="to">Varış Yeri</label>
+          <input type="text" id="to" name="to" required />
+        </div>
+        <div class="form-group">
+          <label for="date">Tarih & Saat</label>
+          <input type="datetime-local" id="date" name="date" required />
+        </div>
+        <div class="form-group">
+          <label for="people">Kişi Sayısı</label>
+          <input type="number" id="people" name="people" min="1" max="20" required />
+        </div>
+        <div class="form-group">
+          <label for="note">Not</label>
+          <textarea id="note" name="note" rows="2"></textarea>
+        </div>
+        <button type="submit" class="reservation-btn">Rezervasyon Yap</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-social">
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram"><img src="assets/icons/instagram.svg" alt="Instagram" /></a>
+      <a href="https://wa.me/905358717659" target="_blank" aria-label="WhatsApp"><img src="assets/icons/whatsapp.svg" alt="WhatsApp" /></a>
+    </div>
+    <div class="footer-contact">
+      <p>Telefon: <a href="tel:(+90) 535 871 76 59">(+90) 535 871 76 59</a> | E-posta: <a href="mailto:megaluxurytransfer@gmail.com">megaluxurytransfer@gmail.com</a></p>
+      <p>Adres: Antalya, Belek, Türkiye</p>
+    </div>
+    <p style="margin-top:1rem;font-size:0.9rem;">&copy; 2025 Mega Luxury Transfer. Tüm hakları saklıdır.</p>
+  </footer>
+  <a href="https://wa.me/905358717659" class="whatsapp-float" target="_blank" aria-label="WhatsApp ile iletişime geç">
+    <img src="assets/icons/whatsapp.svg" alt="WhatsApp" />
+  </a>
+  <script src="js/main.js"></script>
+</body>
+</html> 
